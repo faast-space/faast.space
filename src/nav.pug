@@ -1,0 +1,14 @@
+nav.navbar.has-shadow.is-spaced(role='navigation' aria-label='main navigation')
+  .navbar-brand
+    a.navbar-item(href='#')
+      img(src='../assets/logo_clean.png' alt='faast company logo')
+    a.navbar-burger.burger(role='button' aria-label='menu' aria-expanded='false' data-target='menu')
+      span(aria-hidden='true')
+      span(aria-hidden='true')
+      span(aria-hidden='true')
+  .navbar-menu#menu
+    .navbar-start
+      a.navbar-item(href='./prices.pug') 💶 Prices
+      a.navbar-item(href='#') 🚀 Features
+    .navbar-end
+      a.navbar-item.button.is-primary(href='#') Console

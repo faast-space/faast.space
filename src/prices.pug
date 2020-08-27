@@ -1,0 +1,49 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='description' content='Use approriate database for each data type')
+    link(rel='icon' type='image/png' href='../assets/favicon.png')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title Faast Space -- prices
+
+  body
+    include ./nav.pug
+
+    section.section
+      .container
+        h1.title.has-text-primary Faast Space
+        p 1 offer, 1 predictable billing, several databases
+    .hero.is-primary
+      .hero-body
+        .container
+          h2.title Data stores
+        .container
+            .columns.is-centered
+                .column.is-2.has-text-centered
+                    .box
+                        h3.title.has-text-dark Key/Value
+                        p Store any value indexed by keys
+                        p.title.has-text-dark 1 €
+                        p.heading Per key
+                .column.is-2.has-text-centered
+                    .box
+                        h3.title.has-text-dark Event bus
+                        p Send and consume messages
+                        p.title.has-text-dark 1 €
+                        p.heading Per message
+                .column.is-2.has-text-centered
+                    .box 
+                        h3.title.has-text-dark Document
+                        p Store any plain document
+                        p.title.has-text-dark 1 €
+                        p.heading Per document
+                .column.is-2.has-text-centered
+                    .box 
+                        h3.title.has-text-dark Time series
+                        p Store any time related data
+                        p.title.has-text-dark 1 €
+                        p.heading Per time series
+    include ./footer.pug
+    link(href='./main.sass' rel='stylesheet')
+    script(src='./index.js')

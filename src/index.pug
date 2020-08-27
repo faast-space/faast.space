@@ -1,0 +1,35 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='description' content='Use approriate database for each data type')
+    link(rel='icon' type='image/png' href='../assets/favicon.png')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title Faast Space
+
+  body
+
+    include ./nav.pug
+
+    section.section
+      .container
+        h1.title.has-text-primary Faast Space
+        p Every data need an appropriate storage
+    .hero.is-primary
+      .hero-body
+        .container
+          h2.title Data stores
+
+    .hero.has-background-light
+      .hero-body
+        .container
+          h2.title Billing
+    .hero.is-primary
+      .hero-body
+        .container
+          h2.title Data stores
+
+    include ./footer.pug
+
+    link(href='./main.sass' rel='stylesheet')
+    script(src='./index.js')

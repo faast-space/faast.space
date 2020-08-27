@@ -1,0 +1,32 @@
+{
+  "name": "faast.space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.pug",
+    "build": "parcel build src/index.pug",
+    "github": "parcel build src/index.pug -d docs --public-url /faast.space/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faast-space/faast.space.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faast-space/faast.space/issues"
+  },
+  "homepage": "https://github.com/faast-space/faast.space#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bulma": "^0.9.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "pug": "^3.0.0",
+    "sass": "^1.26.10"
+  }
+}
